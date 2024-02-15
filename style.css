@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  color: #e5e5e5;
+  height: 150px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.mainLogo {
+  background-image: url("The-Batman.jpg.webp");
+  background-size: cover;
+  margin-left: 85px;
+  height: 150px;
+  width: 250px;
+}
+
+.top-item {
+  margin-left: 20px;
+  margin-right: 300px;
+  font-size: 1.2rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  color: #e5e5e5;
+  text-shadow: pink;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.text:hover {
+  transform: scale(1.005);
+}
+
+.img-box {
+  /* border: 2px solid whitesmoke; */
+  border-radius: 40px;
+  /* background-color: #fb6f92; */
+  margin: 20px;
+  margin-top: 50px;
+  margin-left: 300px;
+  padding: 2rem;
+  height: 800px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.starter {
+  background-image: url("myIMG3.jpg");
+  background-size: cover;
+  height: 800px;
+  width: 500px;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+.starter:hover {
+  transform: scale(1.005);
+}
+
+.text1 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.btn {
+  margin: 5%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnn {
+  color: black;
+  font-size: 1.6rem;
+}
+button {
+  height: 70px;
+  width: 150px;
+  font-weight: 600;
+  border-radius: 40px;
+  background: transparent;
+  background-color: white;
+  border: none;
+  transition: all 0.3 ease;
+
+  /* box-shadow: 0 0 10px #ff477e; */
+}
+
+button:hover {
+  transform: scale(1.05);
+  /* box-shadow: 0 0 15px #ff477e; */
+}
+
+.empty {
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  background-color: white;
+}
+
+/* quick question box  */
+
+.question {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  margin: 50px;
+  font-size: 3rem;
+  height: 200px;
+  color: whitesmoke;
+}
+
+#whynot {
+  font-weight: 500;
+  font-size: 3.8rem;
+  color: #deaaff;
+}
+
+.main-ques {
+  margin: 10%;
+  text-align: center;
+  font-size: 4.2rem;
+  color: #deaaff;
+}
+
+/* no box  */
+
+/* body {
+  height: 1000px;
+} */
+
+.image-no-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+.image-no {
+  background-image: url("african.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  height: 600px;
+  width: 500px;
+}
+
+/* second no  */
+
+.sec-no {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-img {
+  background-image: url("badmash.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.no-text {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  font-size: 3.2rem;
+  color: #e5e5e5;
+  transition: transform 0.3s ease;
+}
+.no-text:hover {
+  transform: scale(1.005);
+}
+
+#yes {
+  font-weight: 500;
+  font-size: 4rem;
+  color: #ff8fab;
+}
+
+/* yes two */
+
+#div1 {
+  animation: transitionIn 1s;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.batman-container {
+  margin-left: 10%;
+}
+
+.batman {
+  background-image: url("batman.png");
+  background-size: cover;
+  height: 80px;
+  width: 190px;
+}
+
+#jhalli {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  margin-right: 10%;
+}
+
+.nav-cont {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-btn {
+  padding-left: 5rem;
+  color: white;
+  background: transparent;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.nav-btn:hover {
+  transform: scale(1.05);
+}
+
+.hero-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 1000px;
+}
+
+.hero-img {
+  /* background-image: url("myIMG1.jpg"); */
+  background-size: cover;
+  width: 600px;
+  height: 800px;
+  border-radius: 20px;
+}
+
+#ab {
+  color: #ffafcc;
+}
+
+.heroine-img {
+  background-image: url("Herimg2.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 800px;
+  border-radius: 20px;
+}
+
+#abc {
+  font-size: 1.5rem;
+}
+
+.text2 {
+  font-size: 3.5rem;
+  color: #caf0f8;
+  transition: transform 0.3s ease;
+}
+.text:hover {
+  transform: scale(1.005);
+}
+
+#abcd {
+  color: #ffb703;
+}
+
+.last-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.last-img {
+  background-image: url("ily.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  height: 500px;
+  width: 80%;
+}
+
+#last {
+  color: #b07d62;
+}
+
+#btn2 {
+  width: 250px;
+  font-size: 1.4rem;
+}
+
+.hairan-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+
+.hairan-img {
+  background-size: cover;
+  border-radius: 20px;
+  height: 600px;
+  width: 600px;
+}
+
+.gulel-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.gulel-img {
+  background-size: cover;
+  border-radius: 20px;
+  height: 700px;
+  width: 600px;
+}
+
+/* our kids */
+
+.text3 {
+  margin: 30px;
+  font-size: 2.5rem;
+  color: #e5e5e5;
+}
+
+.kids-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 800px;
+}
+
+.mylo {
+  background-image: url("mylo.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  height: 600px;
+  width: 20%;
+}
+
+.rabbits {
+  background-image: url("rabbits.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  height: 600px;
+  width: 30%;
+}
+
+/* us  */
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.main-cont {
+  display: flex;
+  height: 700px;
+  animation: transitionIn 1s;
+}
+
+.box1 {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.box-img {
+  background-size: cover;
+  margin: 10px;
+  height: 500px;
+  width: 380px;
+}
+
+.box-text {
+  background-color: white;
+  font-size: 2rem;
+  padding-left: 10px;
+}
+
+/* words  */
+
+.pic-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.deb-pic {
+  animation: transitionIn 1s;
+  background-size: cover;
+  border-radius: 20px;
+  height: 700px;
+  width: 500px;
+}
+
+.words {
+  animation: transitionIn 1.5s;
+  padding-left: 50px;
+  color: white;
+  font-size: 2rem;
+}
